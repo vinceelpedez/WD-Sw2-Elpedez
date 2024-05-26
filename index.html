@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/assets/img/profilepic.jpg" alt="Your Photo" class="profile-pic">
+            <h1>Vincent Luke A, Elpedez</h1>
+            <p>Entry Level Programmer</p>
+        </div>
+        <nav class="nav-bar">
+            <button class="nav-button" onclick="showSection('education')">Education</button>
+            <button class="nav-button" onclick="showSection('experience')">Experience</button>
+            <button class="nav-button" onclick="showSection('skills')">Skills</button>
+            <button class="nav-button" onclick="showSection('contact')">Contact</button>
+        </nav>
+        <div class="content">
+            <section id="education" class="content-section">
+                <h2>Education</h2>
+                <p>Far Eastern University Institute of Technology.</p>
+                <h3>Degree</h3>
+                <p>Bachelors of Science in Information Technology Specialized in Web & Mobile Applications</p>
+            </section>
+            <section id="experience" class="content-section">
+                <h2>Experience</h2>
+                <p>2 years freelance</p>
+            </section>
+            <section id="skills" class="content-section">
+                <h2>Skills</h2>
+                <h3>Programming Languages</h3>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>C++</p>
+            </section>
+            <section id="contact" class="content-section">
+                <h2>Contact</h2>
+                <p>Email: elpedezvincent@gmail.com</p>
+                <p>Contact Number: 09602203846</p>
+                <p>Facebook: elpedezvincent </p>
+            </section>
+        </div>
+    </div>
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+        document.addEventListener('DOMContentLoaded', () => {
+            showSection('education');  
+        });
+    </script>
+</body>
+</html>
+
