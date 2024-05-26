@@ -1,17 +1,18 @@
 body {
-    font-family:  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+JP:100,200,300,regular,500,600,700" rel="stylesheet" />
+    font-family: 'IBM Plex Sans JP', sans-serif;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f9f9f9;
+    min-height: 100vh;
+    background-color: #f3e9d2; 
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     max-width: 900px;
-    background-color: rgb(181, 170, 170);
+    background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
@@ -20,8 +21,8 @@ body {
 .header {
     text-align: center;
     padding: 30px 20px;
-    background-color: #333;
-    color: rgb(246, 239, 239);
+    background-color: #5e5e5e; 
+    color: #fff;
 }
 
 .profile-pic {
@@ -29,21 +30,21 @@ body {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid white;
+    border: 5px solid #fff;
     margin-bottom: 20px;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-around;
-    background-color: #fff;
-    border-bottom: 1px solid #e0e0e0;
+    background-color: #5e5e5e; 
+    border-bottom: 1px solid #333; 
 }
 
 .nav-button {
     background: none;
     border: none;
-    color: #333;
+    color: #fff;
     font-size: 16px;
     cursor: pointer;
     padding: 15px 20px;
@@ -51,7 +52,7 @@ body {
 }
 
 .nav-button:hover {
-    background-color: #f0f0f0;
+    background-color: #333; 
 }
 
 .content {
@@ -65,11 +66,13 @@ body {
 .content-section h2 {
     margin-top: 0;
     color: #333;
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 2px solid #5e5e5e; 
     padding-bottom: 10px;
 }
 
 .content-section p {
-    color: #555;
+    color: #666; 
     line-height: 1.6;
 }
+
+

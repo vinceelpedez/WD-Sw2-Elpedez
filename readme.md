@@ -60,11 +60,33 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+<strong>What is the project?</strong>
+
+The project is a personal website resume created using HTML and CSS.
+
+<h3>What's the purpose?</h3>
+
+The purpose of the website resume is to serve as a digital representation of the individual's qualifications, skills, and experiences for future job applications. It provides potential employers with a comprehensive overview of the individual's professional background and capabilities.
+
+<h3>What are the key components?</h3>
+
+<h3>The key components of the website resume include:</h3>
+
+<strong>Header:</strong> Contains the individual's name, job title, and a profile picture.
+
+<strong>Navigation Bar:</strong> Allows users to navigate between different sections of the resume, such as Education, Experience, Skills, and Contact.
+
+<strong>Sections:</strong> Each section provides detailed information about the individual's education, work experience, skills, and contact details.
+
+<strong>Content: </strong> Information about education, work experience, skills, and contact details are presented in a clear and organized manner.
+
+<strong>Styling:</strong> The use of CSS for styling enhances the visual appeal of the resume, making it more attractive and engaging for viewers.
+
+<h3>What technology used and how it is used?</h3>
+
+<strong>HTML:</strong> Used to structure the content of the website resume, including headings, paragraphs, lists, and links. HTML provides the foundation for organizing and presenting information in a readable format.
+
+<strong>CSS:</strong> Used to style and layout the elements of the website resume, including colors, fonts, margins, and positioning. CSS enhances the visual presentation of the resume, making it more visually appealing and professional.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
